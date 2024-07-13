@@ -155,8 +155,11 @@ function clr(){
 
 function del(){
     console.log("clicked")
-    if (document.getElementById("result").innerText.length>0){
+    if (document.getElementById("result").innerText.length>1){
         document.getElementById("result").innerText = document.getElementById("result").innerText.slice(0,-1)
+    }
+    else if (document.getElementById("result").innerText.length==1){
+        document.getElementById("result").innerText=0
     }
     lastClickedEqls=0
 }
