@@ -1,16 +1,55 @@
 .hero {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
+button{
+    margin: 7px;
+    width: 75px;
+    height: 75px;
+    font-size: 42px;
+    color: orange;
+    background-image: radial-gradient( rgb(40, 40, 40),black);
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+#buttons {
+    padding: 10px;
+    background-color: rgb(45, 145, 145);
+    border: 1px solid skyblue;
+    border-radius: 10%;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #display-box {
+    border-radius: 10px;
+    background-color: bisque;
     display: flex;
     align-items: center;
     justify-content: right;
     border: 1px solid black;
-    width: 300px;
+    width: 400px;
     height: 30px;
     padding:10px;
 }
 
+#equals-btn {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.op-btn{
+    background-image: radial-gradient(orange,rgb(255, 145, 0));
+    color: black;
+    border: 7px solid orange;
+}
+
+body{
+    background-image: linear-gradient(teal,orange);
+    height: 100vw;
+}
