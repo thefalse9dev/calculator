@@ -44,7 +44,7 @@ button{
 }
 
 .op-btn{
-    background-image: radial-gradient(orange,rgb(255, 145, 0));
+    background-image: radial-gradient(orange,rgb(255, 213, 0));
     color: black;
     border: 7px solid orange;
 }
