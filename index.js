@@ -116,6 +116,17 @@ function func0(){
     lastClickedEqls=0
 }
 
+function funcpt(){
+    if (lastClickedEqls==1 || document.getElementById("result").innerText=="0"){
+        document.getElementById("result").innerText= "0."
+    }
+    else{
+        document.getElementById("result").innerText+= "."
+    }
+    
+    lastClickedEqls=0
+}
+
 function add(){
     document.getElementById("result").innerText+="+"
     lastClickedEqls=0
