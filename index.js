@@ -152,3 +152,11 @@ function clr(){
     document.getElementById("result").innerText=0
     lastClickedEqls=0
 }
+
+function del(){
+    console.log("clicked")
+    if (document.getElementById("result").innerText.length>0){
+        document.getElementById("result").innerText = document.getElementById("result").innerText.slice(0,-1)
+    }
+    lastClickedEqls=0
+}
