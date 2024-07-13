@@ -52,4 +52,5 @@ button{
 body{
     background-image: linear-gradient(teal,orange);
     height: 100vw;
+    background-size: cover;
 }
